@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ProgressBar
+	android:id="@+id/address_progress"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerHorizontal="true"
+	android:indeterminate="true"
+	android:visibility="gone" />
+
+     <Button
+        android:id="@+id/getLocButton"
+        android:text="Options"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" 
+        android:onClick="getAddress"/>
+      
+	<EditText
+	    android:id="@+id/locEntry"
+	    android:hint="Enter City"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/getLocButton"
+        android:digits="abcdefghijklmnopqrstuvwxyz"/>
+	
+	
+	<fragment 
+         android:id="@+id/map"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_below="@+id/locEntry"
+         android:name="com.google.android.gms.maps.MapFragment"/>
+	
+	 <RadioGroup
+	    
+	    android:id="@+id/menuSwitch"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	      android:layout_alignParentBottom="true" >
+	   
+	<RadioButton 
+	    android:id="@+id/rb_MapType"
+	    android:text="Map Type"
+	    android:checked="false"/>
+	
+		<RadioButton 
+	    android:id="@+id/rb_PastLocations"
+	    android:text="Past Locations"
+	    android:checked="false"/>
+	
+	</RadioGroup>	
+	
+	<TextView
+	    android:id="@+id/mAddressDisplay"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/menuSwitch"
+	     android:layout_alignParentBottom="true"/>
+
+	<Button
+	    android:id="@+id/gpsButton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/mAddressDisplay"
+	    android:layout_alignParentRight="true"
+	    android:onClick="FindUser"
+	    android:text="Find me" />
+	
+</RelativeLayout> 
+

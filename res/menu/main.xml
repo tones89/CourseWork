@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    	<item android:id = "@+id/Sattelite"
+    	android:title="Sattelite"
+        android:icon = "@drawable/ic_launcher"
+         />
+    	
+    	<item android:id= "@+id/Terrain" 
+    	 android:title="Terrain"
+    	 android:icon= "@drawable/ic_launcher"
+    	/>
+    	
+    	<item android:id= "@+id/Hybrid" 
+    	 android:title="Hybrid"
+    	 android:icon=  "@drawable/ic_launcher"
+    	 />
+    	
+    	<item android:id= "@+id/Normal" 
+    	 android:title="Normal"
+    	 android:icon=  "@drawable/ic_launcher"
+    	 />
+    	
+    	<item android:id= "@+id/Blank" 
+    	 android:title="Blank"
+    	 android:icon= "@drawable/ic_launcher"
+ 		 />
+    	
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+          
+	<TextView 
+	    android:id="@+id/Heading"
+	    android:text="Choose what you want to do"
+		android:layout_alignParentTop="true"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"/>
+	
+    <RadioGroup 
+        android:layout_below="@+id/Heading"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LocationChoices">
+        
+        <RadioButton
+            android:id="@+id/zoomToHomeCity"
+            android:text="Zoom map to your home city"
+            android:checked="false"/>
+        
+        <RadioButton 
+            android:id="@+id/DistanceFromhome"
+            android:text="Tell me how far I am from home"
+            android:checked="false"/>
+    </RadioGroup>
+     
+     <Button 
+        android:id="@+id/Dialogue_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LocationChoices"
+     	android:layout_alignParentRight="true"
+        android:text="Cancel"/>
+    
+</RelativeLayout>

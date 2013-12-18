@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    	<item android:id = "@+id/loc_Aukland"
+    	android:title="Aukland"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	<item android:id = "@+id/loc_Brisbane"
+    	android:title="Brisbane"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	<item android:id = "@+id/loc_Christchurch"
+    	android:title="Christchurch"
+        android:icon = "@drawable/ic_launcher"/>
+    
+    	<item android:id = "@+id/loc_Dehli"
+    	android:title="Dehli"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	<item android:id = "@+id/loc_Edinburgh"
+    	android:title="Edinburgh"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	<item android:id = "@+id/loc_Edmonton"
+    	android:title="Edmonton"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	<item android:id = "@+id/loc_KualaLumpur"
+    	android:title="KualaLumpur"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	<item android:id = "@+id/loc_Manchester"
+    	android:title="Manchester"
+        android:icon = "@drawable/ic_launcher"/>
+    	 		
+    	<item android:id = "@+id/loc_Melbourne"
+    	android:title="Melbourne"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	<item android:id = "@+id/loc_Victoria"
+    	android:title="Victoria"
+        android:icon = "@drawable/ic_launcher"/>
+    	
+    	
+ 
+    	
+  
+   
+</menu>
